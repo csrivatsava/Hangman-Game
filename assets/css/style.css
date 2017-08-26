@@ -1,0 +1,12 @@
+
+
+#borderimg1 { 
+    border: 10px solid transparent;
+    border-color: black;
+    padding: 15px;
+    -webkit-border-image: url(../assets/images/border.png) 30 round;
+    -o-border-image: url(../assets/images/border.png) 30 round; 
+    border-image: url(../images/border.png) 30 round;
+    margin: 10px;
+
+}

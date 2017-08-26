@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Hangman Game</title>
+          <!-- Added a link to Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+          <!-- Style sheet -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="jumbotron ">
+              <!-- centered text -->
+              <h1 class="text-center"><strong>Hangman Game</strong></h1>
+              <h2 class="text-center">Guess the United States City Names</h2>
+              <p class="text-center">
+                <button class="btn btn-primary btn-lg normal-button" id="playbtn"><span class="glyphicon glyphicon-play"></span> PLAY</button>
+              </p>
+          </div>
+            <div class="col-sm-12 row" id="content" >
+                <div class="col-sm-6 text-center" id="borderimg1" >
+                    <div class="row" id="HangmanGame">
+                        
+                    </div>
+                </div>
+                <div class="col-sm-5" id="borderimg1">
+                    <canvas id="hang" >
+                </div>
+                  
+            </div>
+        </div>
+      
+      <script src="assets/javascript/game.js"></script>
+    </body>
+</html>
